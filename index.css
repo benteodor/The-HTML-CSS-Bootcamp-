@@ -4,8 +4,10 @@ h1 {
   font-family: sans-serif;
   font-size: 40px;
   font-weight: bold;
+  /*font: 400 40px sans-serif; */
   text-align: center;
   text-shadow: magenta 10px 10px;
+  text-transform: uppercase;
 }
 
 body {
@@ -18,9 +20,51 @@ p {
   font-weight: 700;
   word-spacing: 10px;
   line-height: 2;
+  text-transform: capitalize;
+  text-decoration-thickness: 10px;
 }
 
 a {
   font-size: 32px;
   font-style: italic;
+  text-decoration-color: blue;
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+  text-decoration: none;
+}
+
+span {
+  background-color: gold;
+  font-size: 20px;
+}
+
+#featured {
+  color: blue;
+  background-color: lightblue;
+}
+
+#special {
+  color: green;
+}
+
+.bright {
+  color: magenta;
+}
+
+.tag {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+#cast {
+  list-style-type: square;
+}
+
+a:visited {
+  color: orangered;
+}
+
+a:hover {
+  color: magenta;
 }
