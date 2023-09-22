@@ -1,0 +1,26 @@
+h1 {
+  color: blanchedalmond;
+  background-color: green;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: magenta 10px 10px;
+}
+
+body {
+  font-size: 32px;
+  text-align: left;
+}
+
+p {
+  font-size: 40px;
+  font-weight: 700;
+  word-spacing: 10px;
+  line-height: 2;
+}
+
+a {
+  font-size: 32px;
+  font-style: italic;
+}
