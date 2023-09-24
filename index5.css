@@ -1,0 +1,64 @@
+/*.box {
+  border: 1px solid red;
+  height: 300px;
+  width: 300px;
+  background-image: url("peacock.png"), url("sunset.jpg");
+  background-color: aquamarine;
+}
+*/
+
+/*.box {
+  border: 1px solid magenta;
+  height: 1200px;
+  width: 900px;
+  background-image: url("food.jpg");
+  /*background-repeat: no-repeat;*/
+/*background-repeat: repeat-x;
+  background-size: cover;
+}
+*/
+
+/*.box {
+  border: 1px solid green;
+  height: 700px;
+  width: 900px;
+  background-image: url("people.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-position: left;
+}
+*/
+
+/*.box {
+  border: 20px dashed red;
+  height: 400px;
+  width: 400px;
+  background-image: url("woman.jpg");
+  background-size: cover;
+  /*background-clip: border-box;*/
+/* padding: 30px;
+  background-clip: content-box;
+}
+*/
+
+/*.box {
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background-image: repeating-linear-gradient(45deg, cyan, magenta, yellow),
+    repeating-linear-gradient(
+      127deg,
+      rgba(0, 225, 0, 0.8),
+      rgba(0, 225, 0, 0) 70.71%
+    );
+}
+*/
+
+.box {
+  border: 2px solid black;
+  height: 700px;
+  width: 400px;
+  background: url("food.jpg") no-repeat center/200%, url("sunset.jpg") left/100%;
+  /*filter: blur(20px);*/
+  filter: /*grayscale()*/ contrast(150%) hue-rotate(180deg);
+}

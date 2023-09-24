@@ -1,0 +1,15 @@
+.container {
+  background-image: url("image\ wolf.png");
+  width: 800px;
+  height: 600px;
+  border: 2px solid red;
+  background-size: cover;
+}
+
+.container2 {
+  background-image: url("image\ rose.png");
+  width: 600px;
+  height: 600px;
+  border: 2px solid green;
+  background-size: cover;
+}
