@@ -1,0 +1,43 @@
+/*p {
+  color: olive;
+  font-family: italic;
+}
+
+.featured {
+  color: orangered;
+  font-size: 30px;
+}
+
+#special {
+  color: magenta;
+  font-size: 20px;
+}
+*/
+
+.special {
+  color: olive;
+}
+
+p:nth-of-type(1) {
+  color: orangered;
+}
+
+#heading {
+  color: purple;
+}
+
+h2 {
+  color: olive !important;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+* {
+  font-weight: bolder;
+}

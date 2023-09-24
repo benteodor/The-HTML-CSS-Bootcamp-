@@ -68,3 +68,20 @@ a:visited {
 a:hover {
   color: magenta;
 }
+
+li:first-of-type {
+  color: blue;
+}
+
+li:last-of-type {
+  color: red;
+}
+
+li:nth-of-type(2n) {
+  border: 1px solid magenta;
+}
+
+p:first-of-type::first-letter {
+  color: blue;
+  text-transform: uppercase;
+}

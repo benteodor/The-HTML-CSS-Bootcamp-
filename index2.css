@@ -107,3 +107,31 @@ h5 {
   margin: 0 auto;
   overflow: auto;
 }
+
+/*h2 + p {
+  color: deeppink;
+}
+*/
+
+h2 ~ p {
+  color: deeppink;
+}
+
+h2:hover {
+  color: orange;
+}
+
+/*p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}*/
+
+p::first-letter {
+  color: blue;
+  text-transform: uppercase;
+}
+
+p::selection {
+  color: red;
+  background-color: beige;
+}
