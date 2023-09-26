@@ -35,11 +35,13 @@ background-color: olive;
 
 .first {
   background-color: olive;
-  transform: scale(2, 4);
+  /*transform: scale(2, 4);*/
+  transform-origin: bottom right;
+  transform: rotate(45deg);
 }
 
 h1 {
-  transform: rotateX(20deg);
-  border: 1px solid black;
+  transform: rotateX(20deg) scale(2);
   display: inline-block;
+  border: 1px solid black;
 }
