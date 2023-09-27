@@ -1,0 +1,43 @@
+h1 {
+  font-size: 3rem;
+}
+
+/*@media only print {
+  h1 {
+    font-size: 10rem;
+  }
+}*/
+
+/*@media only screen {
+  h1 {
+    font-size: 8rem;
+  }
+}*/
+
+body {
+  background-color: red;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/*@media (min-width: 800px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: cyan;
+  }
+}*/
