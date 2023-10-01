@@ -1,0 +1,73 @@
+.box1 {
+  background-color: tomato;
+  height: 300px;
+  /*width: calc(50% * 2);*/
+  /*width: calc(50% - 2);*/
+  width: calc(50% / 2);
+  /*width: calc(50% + 120px);*/
+  float: left;
+  margin-right: 20px;
+}
+
+/*.box2 {
+  background-color: olivedrab;
+  height: 300px;
+  width: calc(60% - 20px);
+  float: right;
+}*/
+
+/*:root {
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  --spacing-xl: 64px;
+  --brand-color: rgb(131, 188, 8);*/
+/* --standard-shadow: 0px 2px 40px rgba(196, 75, 75, 0.15);
+}
+
+button {
+  padding: var(--spacing-lg);
+}
+
+@media screen and (max-width: 800px) {
+  button {
+    padding: var(--spacing-md);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    padding: var(--spacing-sm);
+  }
+}
+
+/*button {
+  background-color: var(--brand-color);
+  background-color: rgb(87, 124, 19);
+}
+
+h1 {
+  color: var(--brand-color);
+  /*color: rgb(87, 124, 19);*/
+/*box-shadow: var(--standard-shadow);
+  display: inline-block;
+}
+
+div {
+  border: 3px solid red;
+  /*border-radius: 3px solid rgb(87, 124, 19);*/
+/*box-shadow: var(--standard-shadow);
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --brand-color: rgb(161, 30, 197);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --brand-color: rgb(97, 91, 99);
+  }
+}
+*/
